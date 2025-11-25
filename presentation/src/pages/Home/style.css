@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.trash {
+  transform: scale(1.5);
+  cursor: pointer;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+    background-color: azure;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    color: rgba(187, 0, 0, 0.897);
+
+}
