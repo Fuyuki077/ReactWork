@@ -4,7 +4,7 @@ import logo from './logo.svg';
 const Menu = () => {
   const items = [
     {
-      label: "About",
+      label: "Sobre",
       bgColor: "#0D0716",
       textColor: "#fff",
       links: [
@@ -13,7 +13,7 @@ const Menu = () => {
       ]
     },
     {
-      label: "Projects", 
+      label: "Projeto", 
       bgColor: "#170D27",
       textColor: "#fff",
       links: [
@@ -22,7 +22,7 @@ const Menu = () => {
       ]
     },
     {
-      label: "Contact",
+      label: "Codigo",
       bgColor: "#271E37", 
       textColor: "#fff",
       links: [
@@ -38,7 +38,7 @@ const Menu = () => {
       logo={logo}
       logoAlt="Company Logo"
       items={items}
-      baseColor="#ffffffe8"
+      baseColor="#ffffffff"
       menuColor="#000"
       buttonBgColor="#111"
       buttonTextColor="#fff"
