@@ -10,7 +10,7 @@
   font-size: 2rem;
   font-weight: bold;
   margin: 10%;
-  margin-top: 7rem;
+  margin-top: 8rem;
   margin-bottom: 2rem;
   color: aliceblue;
 
@@ -21,12 +21,18 @@
   display: grid;
   grid-template-columns: 1fr auto; /* Texto ocupa espaço restante, imagem com tamanho automático */
   gap: 3rem; /* Espaço entre texto e imagem */
-  background-color: #282c34;
+  background: linear-gradient(135deg, #282c34, #182237);
   justify-content: center;
   align-items: center;
   border-radius: 6px;
   padding: 2rem;
   animation: ease 2s fadeIn;
+  box-shadow: 0 4px 8px #182237;
+}
+
+.content :hover {
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
 }
 
 .content p {
