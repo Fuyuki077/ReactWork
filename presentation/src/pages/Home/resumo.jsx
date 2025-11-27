@@ -1,6 +1,9 @@
 import './style.css'
 import gatopoligonalgirando from './gatopoligonalgirando.gif'
+import maxwell from './maxwell-cat.gif'
 import AnimatedContent from './animation/AnimatedContent.jsx'
+import ImagemComHover from './imghover.jsx'
+
 function Resumo() {
 
   return (
@@ -22,7 +25,7 @@ function Resumo() {
         threshold={0.2}
         delay={0.3}
       >
-        <img src={gatopoligonalgirando} alt="Gato Poligonal Girando" />
+        <ImagemComHover />
         </AnimatedContent>
         </div>
       
@@ -31,4 +34,4 @@ function Resumo() {
   )
 }
 
-export default Resumo
+export default Resumo 

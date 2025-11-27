@@ -28,7 +28,7 @@ function Conclusao() {
         </thead>
         <tbody>
             <tr>
-                <td>Levantamento de artigos associados ao tema</td>
+                <td><strong>Levantamento de artigos associados ao tema</strong></td>
                 <td>X</td>
                 <td></td>
                 <td></td>
@@ -37,7 +37,7 @@ function Conclusao() {
                 <td></td>
             </tr>
             <tr>
-                <td>Flotamento de artigos</td>
+                <td><strong>Flotamento de artigos</strong></td>
                 <td>X</td>
                 <td></td>
                 <td></td>
@@ -46,7 +46,7 @@ function Conclusao() {
                 <td></td>
             </tr>
             <tr>
-                <td>Análise de relevância dos artigos</td>
+                <td><strong>Análise de relevância dos artigos</strong></td>
                 <td>X</td>
                 <td>X</td>
                 <td></td>
@@ -55,7 +55,7 @@ function Conclusao() {
                 <td></td>
             </tr>
             <tr>
-                <td>Pesquisa de tipos de metodologias</td>
+                <td><strong>Pesquisa de tipos de metodologias</strong></td>
                 <td></td>
                 <td>X</td>
                 <td></td>
@@ -64,7 +64,7 @@ function Conclusao() {
                 <td></td>
             </tr>
             <tr>
-                <td>Definição do método de Coleta de dados</td>
+                <td><strong>Definição do método de Coleta de dados</strong></td>
                 <td></td>
                 <td>X</td>
                 <td></td>
@@ -73,7 +73,7 @@ function Conclusao() {
                 <td></td>
             </tr>
             <tr>
-                <td>Definição do método de desenvolvimento de modelo</td>
+                <td><strong>Definição do método de desenvolvimento de modelo</strong></td>
                 <td></td>
                 <td></td>
                 <td>X</td>
@@ -82,7 +82,7 @@ function Conclusao() {
                 <td></td>
             </tr>
             <tr>
-                <td>Definição de categorias de fatores</td>
+                <td><strong>Definição de categorias de fatores</strong></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -91,7 +91,7 @@ function Conclusao() {
                 <td></td>
             </tr>
             <tr>
-                <td>Proposta de modelo</td>
+                <td><strong>Proposta de modelo</strong></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -100,7 +100,7 @@ function Conclusao() {
                 <td></td>
             </tr>
             <tr>
-                <td>Finalizar elaboração da proposta</td>
+                <td><strong>Finalizar elaboração da proposta</strong></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -113,7 +113,7 @@ function Conclusao() {
 </table>
 
 <h2>Referências</h2>
-<div>
+<div className='lista'>
 <ul className='lista-minimalista'>
     <li>BENEVENTO, E.; ALOINI, D.; ROMA, P.; BELLINO, D. The impact of influencers on brand social network growth: Insights from new product launch events on Twitter. Journal of Business Research, v. 189, p. 115123, 2025. DOI: 10.1016/j.jbusres.2024.115123.</li>
     <li>HAMARI, J.; KERONEN, L. Why do people play games? A meta-analysis. International Journal of Information Management, v. 37, n. 3, p. 125-141, 2017. DOI: 10.1016/j.ijinfomgt.2017.01.006.</li>

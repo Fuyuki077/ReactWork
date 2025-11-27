@@ -10,6 +10,8 @@ import TrabalhosCorrelatos from './pages/Home/trabalhosCorrelatos.jsx'
 import Metodologia from './pages/Home/metodologia.jsx'
 import Conclusao from './pages/Home/cronogramaReferencias.jsx'
 
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Menu />
