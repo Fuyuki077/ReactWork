@@ -30,7 +30,7 @@ function Metodologia() {
     <p>Identificar e organizar as variáveis mais relevantes para a análise da popularidade dos jogos digitais, a partir da literatura e de bases de dados públicas.</p>
     <p><strong>Categorias de variáveis propostas:</strong></p>
     <div className='lista'>
-    <ol className='lista-minimalistaOl'>
+    <ol className='lista-minimalista'>
         <li><strong>Técnicas:</strong> motor gráfico, plataforma, gênero, requisitos mínimos e tamanho do jogo.</li>
         <li><strong>Design e conteúdo:</strong> qualidade gráfica, duração média, presença de multiplayer, modelo de monetização e atualização pós-lançamento.</li>
         <li><strong>Marketing e visibilidade:</strong> número de trailers, visualizações, orçamento promocional, data de lançamento e presença em eventos.</li>
@@ -43,25 +43,33 @@ function Metodologia() {
     <p><strong>Justificativa:</strong> Essa etapa assegura a consistência e abrangência dos dados, permitindo o cruzamento entre dimensões técnicas, mercadológicas e sociais — o que é essencial para uma análise multimodal.</p>
 
 </div>
-
+<div className='content1'>
 <h3>Etapa 3 — Coleta e Organização dos Dados</h3>
     <p>Definir o processo teórico de extração, armazenamento e tratamento de dados provenientes das fontes selecionadas.</p>
     <p><strong>Procedimentos:</strong></p>
-    <ul>
+    <div className='lista'>
+    <ul className='lista-minimalista'>
         <li>Armazenamento em banco de dados relacional (PostgreSQL) ou orientado a documentos (MongoDB), conforme o tipo e a estrutura dos dados.</li>
         <li>Organização dos registros em intervalos temporais (pré-lançamento, lançamento e pós-lançamento) para permitir análise longitudinal.</li>
     </ul>
+    </div>
     <p><strong>Resultados esperados:</strong> um banco conceitual padronizado e modular, preparado para futuras implementações empíricas.</p>
+</div>
 
+<div className='content1'>
 <h3>Etapa 4 — Modelagem Conceitual e Arquitetura do Sistema</h3>
     <p>Propor a arquitetura teórica do modelo de aprendizado de máquina que integre informações de múltiplas modalidades de dados.</p>
     <p><strong>Descrição da arquitetura proposta:</strong></p>
-    <ol>
+    <div className='lista'>
+    <ol className='lista-minimalista'>
         <li><strong>Módulo de Entrada Multimodal:</strong> recebe dados textuais, visuais e numéricos.</li>
         <li><strong>Módulo de Fusão de Features:</strong> combina as saídas de diferentes modalidades, utilizando técnicas de redução de dimensionalidade (PCA, LASSO, t-SNE).</li>
         <li><strong>Módulo de Predição:</strong> integra algoritmos como Random Forest, Gradient Boosting (XGBoost, LightGBM) e Redes Neurais Multicamadas (MLP).</li>
         <li><strong>Módulo de Interpretação:</strong> emprega métodos de interpretabilidade (SHAP e LIME) para identificar os fatores mais influentes no sucesso dos jogos.</li>
     </ol>
+    </div>
+</div>
+
 </div>
 
 )

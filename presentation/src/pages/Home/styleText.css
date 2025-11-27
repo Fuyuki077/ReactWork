@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  
 
 }
 
@@ -17,6 +17,12 @@ h3 {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+caption {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
   color: #ffffff;
 }
 
@@ -58,12 +64,14 @@ h3 {
     padding: 0;
 }
 
+
 .lista-minimalista li {
     padding: 1rem 1rem 1rem 2.5rem;
     margin: 0.8rem 0;
     background: #f8fafc;
     border-radius: 2px;
     position: relative;
+    animation: none;
 }
 
 .lista-minimalista li::before {
@@ -76,9 +84,11 @@ h3 {
     transform: translateY(-50%);
 }
 
-.lista {
-    transform: translateY(-15%);
+.content1 .lista {
+    animation: none;
+    transform: translateY(-10%);
 }
+
 
 .tabelaestilizada {
   width: 90%;
@@ -127,12 +137,12 @@ h3 {
 
 /* Zebra stripes opcional */
 .tabelaestilizada tbody tr:nth-child(even) {
-  background-color: #f8fafc;
+  background-color: #e7e8ec;
 }
 
-.tabelaestilizada tbody tr:nth-child(even):hover {
-  background-color: #f1f5f9;
-}
+/* .tabelaestilizada tbody tr:nth-child(even):hover {
+  background-color: #cbced1;
+} */
 
 /* Para células de destaque */
 .tabelaestilizada .destaque {

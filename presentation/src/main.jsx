@@ -8,6 +8,7 @@ import FundamentaçãoTeórica from './pages/Home/fundamentacaoTeorica.jsx'
 import Objetivos from './pages/Home/objetivos.jsx'
 import TrabalhosCorrelatos from './pages/Home/trabalhosCorrelatos.jsx'
 import Metodologia from './pages/Home/metodologia.jsx'
+import Conclusao from './pages/Home/cronogramaReferencias.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,5 +19,6 @@ createRoot(document.getElementById('root')).render(
     <Objetivos />
     <TrabalhosCorrelatos />
     <Metodologia />
+    <Conclusao />
   </StrictMode>,
 )
