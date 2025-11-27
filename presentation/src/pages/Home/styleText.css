@@ -14,10 +14,11 @@ h2 {
 }
 
 h3 {
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  margin: 2rem 4.5% 1rem 4.5%;
+  line-height: 1.3;
+  color: #e9e9e9;
 }
 
 caption {
@@ -25,6 +26,7 @@ caption {
   font-size: 1.2rem;
   color: #ffffff;
 }
+
 
 .content1  {
   text-align: justify;

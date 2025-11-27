@@ -45,7 +45,13 @@
 .content img {
   max-width: 350px; /* Controla o tamanho da imagem */
   height: auto;
+
   border-radius: 4px; /* Opcional: estilo adicional */
+}
+
+.content img:hover {
+  box-shadow: 0 8px 16px #182237;
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 768px) {
@@ -56,7 +62,8 @@
 
 
   .content img {
-    max-width: 100%; /* Imagem ocupa toda a largura disponível */
-    margin-top: 1rem; /* Espaço acima da imagem */
+    max-width: auto; /* Imagem ocupa toda a largura disponível */
+    min-height: auto; /* Espaço acima da imagem */
+    margin: 0;
   }
 }
