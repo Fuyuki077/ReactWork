@@ -1,3 +1,8 @@
+.nav-card-link {
+  text-decoration: none;
+  color: white;
+}
+
 .card-nav-container {
   position: fixed;
   top: 2em;

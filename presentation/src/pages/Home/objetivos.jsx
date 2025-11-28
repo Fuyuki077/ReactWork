@@ -2,7 +2,7 @@ import './styleText.css'
 function Objetivos() {
 
   return (
-    <div>
+    <div id='3'>
       <h2 >3. Objetivo</h2>
         <div className='content1'>
         <p>Propor um modelo de aprendizado de máquina voltado à predição de popularidade de jogos digitais, identificando as principais variáveis e etapas necessárias à sua construção por meio da análise multimodal de dados.</p>

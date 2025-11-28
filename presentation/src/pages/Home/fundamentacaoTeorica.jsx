@@ -3,7 +3,7 @@ import AnimatedContent from './animation/AnimatedContent.jsx'
 function FundamentaçãoTeórica() {
 
   return (
-    <div>
+    <div id='2'>
       <h2>2. Fundamentação Teórica</h2>
         <div className='content1'>
             <p>Diversos estudos apontam que a popularidade pode ser medida por métricas como quantidade de downloads, tempo médio de jogo, avaliações positivas, menções em redes sociais e presença em plataformas de streaming.</p>

@@ -26,7 +26,7 @@
   align-items: center;
   border-radius: 6px;
   padding: 2rem;
-  animation: ease 2s fadeIn;
+  animation: ease 2s ease-in-out;
   box-shadow: 0 4px 8px #182237;
 }
 
@@ -38,25 +38,38 @@
 .content p {
   color: aliceblue;
   font-size: 1.2rem;
+  text-align: justify;
   line-height: 1.5;
   margin: 0; /* Remove margens extras */
 }
 
 .content img {
   max-width: 350px; /* Controla o tamanho da imagem */
-  height: auto;
+  height: inherit;
 
-  border-radius: 4px; /* Opcional: estilo adicional */
+  border-radius: 3px; /* Opcional: estilo adicional */
 }
 
 .content img:hover {
   box-shadow: 0 8px 16px #182237;
   transition: all 0.3s ease;
+  min-height: 350px;
+}
+
+@keyframes ease {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 100;
+    transform: translateY(-100);
+  }
 }
 
 @media (max-width: 768px) {
   .content {
-    grid-template-columns: 1fr; /* Uma coluna no mobile */
+    grid-template-columns: 3fr; /* Uma coluna no mobile */
     text-align: justify; /* Centraliza o texto */
   }
 

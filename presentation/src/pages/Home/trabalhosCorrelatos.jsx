@@ -3,7 +3,7 @@ import AnimatedContent from './animation/AnimatedContent.jsx'
 function TrabalhosCorrelatos() {
 
   return (
-    <div>
+    <div id='4'>
       <h2>4. Trabalhos Correlatos</h2>
 
 <h3>Esta seção apresenta estudos relevantes que fundamentam a proposta, evidenciando diferentes abordagens na predição de sucesso em jogos digitais.</h3>

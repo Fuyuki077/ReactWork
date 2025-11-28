@@ -1,7 +1,6 @@
-import './style.css'
+import '../Content/style.css'
 import gatopoligonalgirando from './gatopoligonalgirando.gif'
 import maxwell from './maxwell-cat.gif'
-import AnimatedContent from './animation/AnimatedContent.jsx'
 import { useState } from 'react';
 
 function ImagemComHover() {

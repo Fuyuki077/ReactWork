@@ -2,6 +2,7 @@ import CardNav from './CardNav'
 import logo from './logo.svg';
 import '../../Home/styleText.css';
 
+
 const Menu = () => {
   const items = [
     {
@@ -9,7 +10,7 @@ const Menu = () => {
       bgColor: "#0D0716",
       textColor: "#fff",
       links: [
-        { label: "Inicio" }
+        { label: "Inicio", href: "#"}
       ]
     },
     {
@@ -17,12 +18,12 @@ const Menu = () => {
       bgColor: "#170D27",
       textColor: "#fff",
       links: [
-        { label: "Introdução" },
-        { label: "Fundamentação Teórica" },
-        { label: "Objetivos" },
-        { label: "Trabalhos Correlatos" },
-        { label: "Metodologia" },
-        { label: "Cronograma e Referências" }
+        { label: "Introdução", href: "#1" },
+        { label: "Fundamentação Teórica", href: "#2" },
+        { label: "Objetivos", href: "#3" },
+        { label: "Trabalhos Correlatos", href: "#4" },
+        { label: "Metodologia", href: "#5" },
+        { label: "Cronograma e Referências", href: "#6" }
       ]
     },
     {
