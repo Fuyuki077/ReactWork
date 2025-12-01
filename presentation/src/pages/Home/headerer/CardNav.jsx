@@ -157,7 +157,7 @@ const CardNav = ({
             type="button"
             className="card-nav-cta-button"
             style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
-            links={[{href:"" }]}
+            onClick={() => alert('esse aviso é um aviso')}
           >
             Aviso
           </button>
