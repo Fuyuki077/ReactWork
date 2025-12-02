@@ -1,5 +1,5 @@
 import './styleText.css'
-import AnimatedContent from './animation/AnimatedContent.jsx'
+import AnimatedContent from '../Content/animation/AnimatedContent.jsx'
 function Introducao() {
 
   return (

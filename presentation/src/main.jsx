@@ -9,12 +9,16 @@ import Objetivos from './pages/Home/objetivos.jsx'
 import TrabalhosCorrelatos from './pages/Home/trabalhosCorrelatos.jsx'
 import Metodologia from './pages/Home/metodologia.jsx'
 import Conclusao from './pages/Home/cronogramaReferencias.jsx'
+import DarkVeil from './DarkVeil';
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Menu />,
+  <div style={{ width: '100%', height: '100vh', position: 'absolute', top: 0, left: 0, zIndex: -1}}>
+    <DarkVeil />
+  </div>
+    <Menu />
     <Resumo />
     <Introducao />
     <FundamentaçãoTeórica />
@@ -22,6 +26,7 @@ createRoot(document.getElementById('root')).render(
     <TrabalhosCorrelatos />
     <Metodologia />
     <Conclusao />
+    
   </StrictMode>
 
 )

@@ -1,7 +1,7 @@
 import './style.css'
 import gatopoligonalgirando from '../Home/gatopoligonalgirando.gif'
 import maxwell from '../Home/maxwell-cat.gif'
-import AnimatedContent from '../Home/animation/AnimatedContent.jsx'
+import AnimatedContent from './animation/AnimatedContent.jsx'
 import ImagemComHover from '../Home/imghover.jsx'
 import 'react-window';
 

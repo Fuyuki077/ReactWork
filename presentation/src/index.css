@@ -7,7 +7,9 @@
 
 body{
   min-height: 200vh;
-  min-width: 100%;
-  background: linear-gradient(180deg, #092c55 0%, #095255 190%);
+  /* min-width: 100%;
+  background: linear-gradient(180deg, #092c55 0%, #095255 190%); */
 
 }
+
+

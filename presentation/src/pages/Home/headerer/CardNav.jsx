@@ -152,12 +152,13 @@ const CardNav = ({
           <div className="logo-container">
             <img src={logo} alt={logoAlt} className="logo" />
           </div>
-
+          
           <button
             type="button"
             className="card-nav-cta-button"
-            style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
-            onClick={() => alert('esse aviso é um aviso')}
+            links={[{  href: '#', label: 'Aviso' }]}
+            style={{ backgroundColor: buttonBgColor, color: buttonTextColor}}
+            // onClick={() => alert('esse aviso é um aviso')}
           >
             Aviso
           </button>
